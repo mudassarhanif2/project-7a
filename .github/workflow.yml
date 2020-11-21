@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Expense Tracker App Assignment
+name: Expense Tracker with typescript and pwa
 
 # Controls when the action will run. Triggers the workflow on push OR pull request
 # events but only for the master branch
@@ -37,4 +37,4 @@ jobs:
     - name: install Surge
       run: npm install --global surge
     - name: Deploy to Surge
-      run: surge ./build http://expense-tracker-by-mudassar.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build https://bootcamp_project-7a.surge.sh --token ${{ secrets.SURGE_TOKEN }}
