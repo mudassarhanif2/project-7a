@@ -135,7 +135,6 @@ input[type='number'] {
   list-style-type: none;
   padding: 0;
   margin-bottom: 40px;
-  max-width: 100%;
 }
 
 .list li {
@@ -148,6 +147,7 @@ input[type='number'] {
   padding: 10px;
   margin: 10px 0;
   left: 0px;
+  max-width: 100%;
 }
 
 .list li.plus {
@@ -179,4 +179,5 @@ input[type='number'] {
 }
 .list li:hover {
   left: 20px;
+  max-width: 94%;
 }
