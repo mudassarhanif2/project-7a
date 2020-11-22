@@ -135,6 +135,7 @@ input[type='number'] {
   list-style-type: none;
   padding: 0;
   margin-bottom: 40px;
+  max-width: 100%;
 }
 
 .list li {
@@ -146,6 +147,7 @@ input[type='number'] {
   position: relative;
   padding: 10px;
   margin: 10px 0;
+  left: 0px;
 }
 
 .list li.plus {
@@ -174,4 +176,7 @@ input[type='number'] {
 
 .list li:hover .delete-btn {
   opacity: 1;
+}
+.list li:hover {
+  left: 20px;
 }
