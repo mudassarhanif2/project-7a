@@ -25,7 +25,7 @@ emp {
 
 .container {
   margin: 30px auto;
-  width: 350px;
+  max-width: 350px;
 }
 
 h1 {
@@ -36,7 +36,7 @@ h1 {
   color: darkgoldenrod;
   font-family: 'Brush Script MT', cursive;
   font-size: 22px;
-  margin-top: 2px;
+  margin: 2px 0 -10px 0;
 }
 h2 {
   text-align: center;
