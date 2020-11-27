@@ -16,9 +16,9 @@ function App() {
   messaging.requestPermission().then(() => {
     return messaging.getToken()
   }).then((token) => {
-    window.alert(token);
-    prompt("token", token);
-    console.log("token", token);
+    window.alert("welcome to expense tracker app");
+    // prompt("token", token);
+    // console.log("token", token);
   })
   return(
     <GlobalProvider>
